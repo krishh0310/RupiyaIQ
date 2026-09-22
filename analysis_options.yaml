@@ -1,0 +1,9 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - build/**
+    - android/**
+  errors:
+    # google_generative_ai is deprecated upstream but kept on purpose (see pubspec.yaml).
+    deprecated_member_use: ignore
